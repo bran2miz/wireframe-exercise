@@ -77,6 +77,11 @@ article a {
   align-self: flex-start;
 }
 
+article a:hover {
+  background-color: blue;
+  transition: 350ms ease-out;
+}
+
 main > img:nth-child(5) {
   margin-bottom: 0;
 }
